@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="我们致力于为企业提供最先进的数字化解决方案" />
+    <meta name="keywords" content="企业网站,模板,数字化解决方案" />
+    <meta content="index, follow" name="robots" />
+    <title>BlockCMS-零代码建站，零服务器建站</title>
+    <link rel="icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Font Awesome 图标 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <!-- 自定义CSS -->
+    <!-- <link rel="stylesheet" th:href="@{/css/style.css}" /> -->
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+        }
+
+        /* 全局样式 */
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* 导航栏 */
+        .nav-link {
+            font-weight: 500;
+            margin: 0 8px;
+            color: var(--secondary-color) !important;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+
+            .navbar-collapse {
+                background: white;
+                padding: 20px;
+                box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+                margin-top: 15px;
+                border-radius: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- 页面头部 -->
+    <header class="sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img class="d-block my-1" height="36" src="https://oss.net10010.cn/cms/2025/05/08/681c19b1d1b2cdbd6428a9a0.png" alt="企业Logo"></img>
+                        <span class="fs-5 fw-bold ms-2">BLOCKCMS</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            
+                            <li class="nav-item">
+                                
+                                <a href="/index.html"
+                                    class="nav-link"
+                                    target="_self">首页</a>
+                                
+                                
+                                
+                                
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            <li class="nav-item dropdown">
+                                
+                                
+                                
+                                <a href="#"
+                                    class="nav-link dropdown-toggle" id="dropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown">产品服务</a>
+                                
+                                <ul class="dropdown-menu">
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        
+                                        
+                                        
+                                            <a href="/products/solutions.html" target="_self"
+                                                class="dropdown-item">解决方案</a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        
+                                        
+                                        
+                                            <a href="/products/center.html" target="_self"
+                                                class="dropdown-item">产品中心</a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        
+                                            <hr class="dropdown-divider">
+                                        
+                                        
+                                        
+                                    </li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        
+                                        
+                                        
+                                            <a href="/products/custom.html" target="_self"
+                                                class="dropdown-item">定制开发</a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                
+                                <a href="/cases.html"
+                                    class="nav-link"
+                                    target="_self">案例展示</a>
+                                
+                                
+                                
+                                
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            <li class="nav-item dropdown">
+                                
+                                
+                                
+                                <a href="#"
+                                    class="nav-link dropdown-toggle" id="dropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown">关于我们</a>
+                                
+                                <ul class="dropdown-menu">
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        
+                                        
+                                        
+                                            <a href="/about/company.html" target="_self"
+                                                class="dropdown-item">公司简介</a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        
+                                        
+                                        
+                                            <a href="/about/history.html" target="_self"
+                                                class="dropdown-item">发展历程</a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <li>
+                                        
+                                        
+                                        
+                                        
+                                            <a href="/about/team.html" target="_self"
+                                                class="dropdown-item">团队介绍</a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li class="nav-item">
+                                
+                                <a href="/news.html"
+                                    class="nav-link"
+                                    target="_self">新闻动态</a>
+                                
+                                
+                                
+                                
+                            </li>
+                            
+                            <li class="nav-item">
+                                
+                                <a href="https://baidu.com"
+                                    class="nav-link"
+                                    target="_blank">百度搜索</a>
+                                
+                                
+                                
+                                
+                            </li>
+                        </ul>
+                        <a class="btn btn-primary btn-sm ms-2 px-2 ms-lg-3"
+                                    href="https://apps.apple.com/cn/app/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E4%BD%A0%E7%9A%84%E7%94%9F%E6%B4%BB%E6%8C%87%E5%8D%97/id741292507"
+                                    target="_blank">下载APP</a>
+                        <!-- <a href="#" class="btn btn-primary rounded-pill px-3 ms-lg-3">立即咨询</a> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主体内容 -->
+    <main class="flex-grow-1">
+        
+        
+        
+        
+            <section class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold mb-3">韩都赵迎光：体量魔咒下 互联网品牌如何进化？</h2>
+                        <p class="text-muted">更新日期：2025-05-11 00:00</p>
+                    </div>
+                    <div class="bg-white p-md-5 p-4 rounded-3"><p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">在2016亿邦未来零售大会上，韩都衣舍电商集团董事长兼CEO赵迎光发表了题为《线上见顶，线下碰壁，互联网品牌无法打破体量魔咒么？》的演讲。他指出，2016年线上流量红利已经见底，千人千面的不断变化导致了相当多的商家流量碎片化的成本特别高。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">在谈到线上品牌如何突破问题时，赵迎光提出了三个方向：第一，把你的主品牌使劲最大，打破行业的天花板；第二，线上与线下相结合，开实体店；第三，做生态运营商。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">据悉，2016亿邦未来零售大会由亿邦动力网主办，思路网协办，于12月19日-21日在广州白云万达希尔顿酒店举行。国内外电商领域知名企业高管、专家学者、媒体代表共计2000余人出席。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">本届大会以&ldquo;新物种、新规则、新电商&rdquo;为主题，包括两天的主论坛、五场分论坛、电商经理人之夜以及马蹄社和亿邦疯人会等系列活动。值得关注的是，在本届大会上，电商产业所熟知的如阿里巴巴、京东、唯品会、当当、亚马逊等面孔都没有出现，取而代之的全部是新生代的零售平台和品牌商阵营，反映了电商领域正寻求破局、寻找新增长的行业心态。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">以下是演讲实录：</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">赵迎光：今天站在这里和大家分享还是有一些些小小的感慨，因为是新物种，今年什么都是新的，新零售、新金融、新制造、新技术等各种各样的&ldquo;新&rdquo;。韩都也是新物种之一，虽然我们是当初最早的一批淘品牌，这些年在不断的进化，新物种是什么？我们在今年年初行业年第一个提出&ldquo;二级生态&rdquo;的概念，经过一年的发展，我们作为二级生态的运营商基本上这条路走通了，今天以二级生态运营商的身份来给大家分享。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">实际上做淘宝、天猫、电商这么多年都过的不太容易，整个是不断进化的过程，每年都有新的规则出来，每年都有新人出来，每年总有老的人被淘汰，一年比一年不容易。实际上作为一个互联网品牌，淘宝2003年就有了，2008年有了天猫，每年出现大量的基于互联网的品牌，其实能够走得下来的并且发展好的不是特别多，还是有一些比较遗憾的地方。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">到了2016年大家觉得特别难，从各个角度都进行过分析，包括流量见顶是两方面：一是用户从增量市场变成存量市场；二是我们能够上线的品牌都上线了，今年是阿里、天猫停止招商，意味着什么，就是阿里认为能上来的都上来了，没有必要把入驻的接口敞开。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&ldquo;双十一&rdquo;的数据方面，搜索点击人数、每年的流量都在增长，但是实际上搜索点击的关键指标是没有太大的增长，整个商家数量总量上没有太大增长，甚至有所减少，而且整个内部质量发生了非常大的变化，大量淘宝中小品牌被淘汰掉，传统品牌，包括国际品牌不断的入驻。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">从PC电商时代千人千面技术一直在不断进化，各个平台在很大的层面上进行布局。千人千面在2015年、2016年获得了突破性的变化，和智能终端关系很大，因为千人千面不断的变化导致了相当多的商家流量碎片化的成本特别高。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">我们作为淘品牌来讲，对未来要进行一些判断，我们大概从四个方面进行了判断：</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第一，因为千人千面是一个必然趋势，我们认为在同一品类下单一品牌的天花板其实没有那么高，只有极少数特殊情况下可以突破，大多数情况下单一品牌天花板低于线下同类品牌。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第二，品牌的时代已经结束了，从原来跑马圈地粗放式运营转为精细化运营。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第三，互联网品牌的绝对数量其实还是要增加的，特别是一些非标品，从趋势上来讲呈逐渐增加的趋势，而不是一个逐渐减少的趋势，竞争越来越激烈。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第四，在这个时候会产生非常严重的矛盾，品牌因为天花板相对来讲要低，规模相对小，但是因为竞争激烈导致了对产品和品牌运营的要求越来越高，这两个之间矛盾会越来越大，这是将来必然的趋势。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">我们最早的时候，大部分电商是&ldquo;麻雀虽小、五脏俱全&rdquo;的运营模式压力越来越大，因为扛不住那个成本，因为你要不断提升质量。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">怎么突破？我们原来做线下，线下零售和PC时代的零售，以及移动时代的零售有哪些不同？我们从三个层面来讲：一是渠道；二是产品；三是内容，内容是关于品牌和消费者沟通的趋势。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">传统线下渠道重要性比较大，所以大家强调&ldquo;位置&rdquo;，内容和产品相对来讲不是那么重要，排在第一位的是渠道的重要性。到了PC电商的时候，渠道的重要性不是那么重要了，因为可选的渠道其实非常有限，但是产品和内容的重要性成为品牌商和零售商进入非常重要的一个点。到了移动电商的时代，渠道依然不是特别多，产品要强，内容人格化倾向越来越明显。人格化不代表一定是具体的人，但是叫做&ldquo;人格化的倾向&rdquo;，什么是&ldquo;人格化倾向&rdquo;，就是我们原来介绍产品的时候，可能卖水的只介绍水，不会介绍别的东西，但是到了移动时代的时候，一个卖水的不仅介绍水，可能介绍其他东西，多层次、多角度进行消费者沟通，其实对企业运营要求难度增加了。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">我们在思考如果是一个线上的品牌，2012年我们和茵曼讨论如何做到至少100亿，基于前面的变化，100亿的路径是什么？我们韩都提出了自己的想法：</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第一，从0到1，如果你作为互联网品牌从0到1是第一步，你做一个品牌找好你的品牌定位，把你的产品做好，开始测试，你这个品牌在这个品类的天花板，看看你能够做到多么大，这是第一步的基础工作。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第二，1到10，基本上上你看到了你这个类目天花板以后，下一步怎么发展，两个路径：一是扩品类，同一个品类之下的扩品类；二是同一个品类之下做多品牌。不是不管其中哪一种，我们这个时候要有一个什么思维？我们追求的是什么？是后端做多品类、多品牌体系的打通，通过扩品牌、扩品类让你的底层不是很大的品牌共享的这套服务系统，包括客服、仓储、IT、运营、PR传播，系统能够共享以后就到了第二步。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第三，10到100，我们正在做第三步，我们开放基于互联网思维下的预约能力，由品牌商转型或者升级为生态运营商，&ldquo;生态&rdquo;这个词有点烂，但是本身是有意义的，我觉得差不多过百亿没有太多问题。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第四，从100到1000，基于主品类的生态运营商进化成多品类的生态运营商，我们韩都在这方面也有布局。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">我们在突破的时候，无非是一个线上品牌突破的方向有三个方向：</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第一，把你的主品牌使劲最大，打破行业的天花板，这个需要非常强的能力。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第二，所谓的线上、线下结合，开实体店。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">第三，做生态运营商，这是我们选择的，前两种方式我们没有做，不代表我们不认为他们能够成功，只不过我们认为有难度，所以我们选择第三种方式。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">韩都自己正在运营品牌的数量接近90个，自己做的品牌有18个，合资的、入股的接近10个，代运营或者服务的品牌50多个，明年至少过150个。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">所以，我们提出来什么叫做&ldquo;二级生态&rdquo;，就是基于互联网下一代零售的概念叫做&ldquo;品牌商+二级生态+以及生态&rdquo;。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">什么是一级生态？指天猫、京东、唯品会包括很多分享的平台，我们称之为一级生态，核心工作是精准匹配，把大量消费者流量拉进来，通过千人千面为代表的各种技术匹配到相应的消费者，而不是让你看到对你无效的商品，主要的工作以精准匹配为核心的基础设施的建设。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">什么是二级生态？我们负责转化，一级平台把流量匹配给你以后，二级生态通过对各种各样的服务商，包括网红、PR等等高质量的运营提高我们生态里每一个品牌的转化率。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">基于这个方向，韩都这些年一些往这个方向走，今年我们做了二级生态，不代表我们今年才想到，我们自己在努力往这个方向在走，2008年到2011年做了一个品牌，2011年我们做了三个亿，面临下一步突破方向的问题，我们是单品牌多品类，还是同一品类多品牌，所以2012年选择开始做新品牌，做了2个，2013年做了3个，2014年做了10个，2014年已经探索出这条路是有价值的，所以2014年一下子做了10个品牌，有7个发展非常健康，有3个因为各种原因暂停运营了，成功率还是比较高。2015年开始尝试进行开放。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">从2012年-2015年，我们干了什么事情？我们通过运营一个品牌到运营十几个品牌，不断打造二级平台服务能力，不仅服务10亿体量的品牌，而且这个系统可以服务一年销售几百万的品牌，这个弹性非常大。对于后端整个服务系统的压力的调整，这是从2012年-2015年不断进化的过程，通过我们自己做的二级平台和以及平台对接，我们很多品牌成长的非常好，这些品牌自己活的话基本上没有成功的可能性。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">我们打造的是什么？很多淘品牌客服外包了、仓储外包了，那是在一定阶段，但是我们所有的系统都在不断扩张、不断提高运营水平，这些年来韩都把这九大支撑功能逐步完善，其实每一个环节上都可以做到全国行业数一数二的运营水平，比专业公司一点都不差，我们认为这是我们的核心能力。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&ldquo;二级生态&rdquo;提出来以后，如果一个品牌你可以做得很大，也可以做得不太大，甚至可以有五六个品牌，但是图形就是这个图形。左边有各种各样的品牌，右边是各种平台，你在中间，内部有自己的资源，我们自己有资源，同时和外部的服务商是合作的。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">所谓的生态概念是通过图来体现的，韩都衣舍是自有品牌运营的系统，这个系统自己独立成长，每年增加一两个品牌的频率，不断增加品牌，员工作为创业平台，韩都自有水平在不断增加，韩都动力是我们输出服务的平台，每年都在增加，和代运营差不多，其实和代运营公司最大的区别是，很多的代运营公司是&ldquo;保姆&rdquo;，但是韩都动力是&ldquo;教练&rdquo;，这是有区别的。很多品牌不缺运营，是缺品牌建设。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">我们还做了一个孵化器，内部运营可以在孵化器里创业，代运营品牌转成孵化器品牌，我们去投资都可以。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">以上是三位一体的运营，这个系统最大的价值是什么？底层的服务设施的共享，刚才讲到的九大系统内部、外部的系统，因为能够共享，所以整个系统内所有的运营效率低成本、高成果进行输出。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">我们现在混成了&ldquo;新物种&rdquo;在不断的进化，我们已经在新三板挂牌了，数据大家明年会看到，挺不错的，我们这种模式某种意义来讲是走得通的。</p>
+<p style="box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.8; overflow-wrap: break-word; white-space: pre-wrap; text-indent: 2em; color: #262626; font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Source Han Sans CN', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">如果大家有想进化的话，不断和行业的人进行交流，大家可以加我的微信，有时间我们可以随时探讨，一起进化，一起成为&ldquo;新物种&rdquo;，谢谢大家。</p></div>
+                    <!-- 上一篇 / 下一篇 -->
+                    <div class="row mt-5 pt-4 border-top small text-muted">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <span>上一篇：</span>
+                            <a class="text-decoration-none text-muted" href="/article/5.html?cid=53">Twitter高管持续流失 首席技术官亚当·梅辛格宣布将辞职</a>
+                            
+                        </div>
+                        <div class="col-md-6 text-md-end">
+                            <span>下一篇：</span>
+                            
+                            <span>无</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center small">
+            <p class="mb-1 text-white-50">© 2025 BLOCKCMS. 保留所有权利.</p>
+            <p class="mb-0 text-white-50">
+                <a class="text-white-50 text-decoration-none" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备12345678号</a>
+                |
+                <a class="text-white-50 text-decoration-none"
+                    href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12345678901234" target="_blank">
+                    <img alt="公安图标" src="https://www.beian.gov.cn/img/ghs.png"
+                        style="width: 16px; vertical-align: text-bottom;" />
+                    <span>粤公网安备 12345678901234号</span>
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+
+</html>
